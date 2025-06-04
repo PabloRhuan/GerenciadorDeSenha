@@ -1,0 +1,17 @@
+# Compiled class files
+*.class
+
+# IDEs
+.idea/
+*.iml
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+credentials.dat

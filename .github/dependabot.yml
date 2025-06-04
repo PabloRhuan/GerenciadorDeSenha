@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/" # Location of pom.xml
+    schedule:
+      interval: "weekly" 
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
